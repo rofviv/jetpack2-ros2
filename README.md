@@ -1,21 +1,48 @@
+# Jetpack ROS 2 Interface
+
+## DIRECTORIO DONDE EJECUTAR LOS COMANDOS
+
+```bash
 cd nexus_ws
+```
 
-terminal 1 
-en la primera ejecucion limpiar usando 
+---
+
+## 🖥 TERMINAL 1 – rosbridge_server
+
+###  First-time setup
+
+```bash
 rm -rf build/ install/ log/
-
 colcon build
 source install/setup.bash
+```
+
+###  Launch server
+
+```bash
 ros2 launch rosbridge_server rosbridge_websocket_launch.xml
+```
 
+---
 
-terminal 2
-en la primera ejecucion limpiar usando 
+##  TERMINAL 2 
+
+###  First-time setup
+
+```bash
 rm -rf build/ install/ log/
-
 colcon build
 source install/setup.bash
+```
+
+### Launch Flask Web API + ROS 2 nodes
+
+```bash
 ros2 launch code_py ejecutar.launch.py
+```
+---
+##  OPEN WEB INTERFACE
+ [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
-
-Running on http://127.0.0.1:5000
+---
