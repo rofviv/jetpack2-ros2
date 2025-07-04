@@ -1,0 +1,1095 @@
+[0.018s] Invoking command in '/home/leyla/Desktop/nexus_ws/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/nexus_ws/install/code_py:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosbridge_test_msgs -DCMAKE_INSTALL_PREFIX=/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs
+[0.091s] -- The C compiler identification is GNU 11.4.0
+[0.162s] -- The CXX compiler identification is GNU 11.4.0
+[0.168s] -- Detecting C compiler ABI info
+[0.226s] -- Detecting C compiler ABI info - done
+[0.233s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.233s] -- Detecting C compile features
+[0.233s] -- Detecting C compile features - done
+[0.235s] -- Detecting CXX compiler ABI info
+[0.299s] -- Detecting CXX compiler ABI info - done
+[0.305s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.305s] -- Detecting CXX compile features
+[0.305s] -- Detecting CXX compile features - done
+[0.310s] -- Found ament_cmake_core: 1.3.11 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.435s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.484s] -- Found ament_cmake_python: 1.3.11 (/opt/ros/humble/share/ament_cmake_python/cmake)
+[0.486s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.553s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.558s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.566s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.577s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.591s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.605s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.625s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.996s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.331s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.460s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.486s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.488s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.522s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.522s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.522s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.522s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.548s] -- Found PythonExtra: .so  
+[1.661s] -- Configuring done
+[1.751s] -- Generating done
+[1.770s] -- Build files have been written to: /home/leyla/Desktop/nexus_ws/build/rosbridge_test_msgs
+[1.779s] Invoked command in '/home/leyla/Desktop/nexus_ws/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/nexus_ws/install/code_py:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosbridge_test_msgs -DCMAKE_INSTALL_PREFIX=/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs
+[1.781s] Invoking command in '/home/leyla/Desktop/nexus_ws/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/nexus_ws/install/code_py:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Desktop/nexus_ws/build/rosbridge_test_msgs -- -j20 -l20
+[1.828s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.840s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.845s] [  1%] Built target ament_cmake_python_copy_rosbridge_test_msgs
+[2.169s] running egg_info
+[2.170s] creating rosbridge_test_msgs.egg-info
+[2.170s] writing rosbridge_test_msgs.egg-info/PKG-INFO
+[2.170s] writing dependency_links to rosbridge_test_msgs.egg-info/dependency_links.txt
+[2.170s] writing top-level names to rosbridge_test_msgs.egg-info/top_level.txt
+[2.171s] writing manifest file 'rosbridge_test_msgs.egg-info/SOURCES.txt'
+[2.175s] reading manifest file 'rosbridge_test_msgs.egg-info/SOURCES.txt'
+[2.175s] writing manifest file 'rosbridge_test_msgs.egg-info/SOURCES.txt'
+[2.221s] [  1%] Built target ament_cmake_python_build_rosbridge_test_msgs_egg
+[4.713s] [  1%] Built target rosbridge_test_msgs__cpp
+[4.743s] [  2%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.746s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.746s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.906s] [  4%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/num__functions.c.o[0m
+[4.917s] [  5%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_duration_array__functions.c.o[0m
+[4.917s] [  5%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_char__functions.c.o[0m
+[4.918s] [  5%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_header_array__functions.c.o[0m
+[4.923s] [  6%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_header__functions.c.o[0m
+[4.923s] [  6%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_header_two__functions.c.o[0m
+[4.923s] [  6%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_time_array__functions.c.o[0m
+[4.939s] [  7%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_u_int8__functions.c.o[0m
+[4.955s] [  8%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_float32_array__functions.c.o[0m
+[4.955s] [  8%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__functions.c.o[0m
+[4.962s] [  8%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__functions.c.o[0m
+[4.962s] [  8%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__functions.c.o[0m
+[4.967s] [  9%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/add_two_ints__functions.c.o[0m
+[4.967s] [  9%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/msg/detail/test_nested_bounded_array__functions.c.o[0m
+[4.971s] [  9%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/test_empty__functions.c.o[0m
+[4.979s] [  9%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/send_bytes__functions.c.o[0m
+[4.979s] [ 10%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/test_array_request__functions.c.o[0m
+[5.010s] [ 11%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__functions.c.o[0m
+[5.039s] [ 11%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/test_nested_service__functions.c.o[0m
+[5.047s] [ 12%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/test_request_only__functions.c.o[0m
+[5.047s] [ 12%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/test_request_and_response__functions.c.o[0m
+[5.050s] [ 12%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/srv/detail/test_response_only__functions.c.o[0m
+[5.052s] [ 12%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/action/detail/test_feedback_and_result__functions.c.o[0m
+[5.052s] [ 13%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/action/detail/test_empty__functions.c.o[0m
+[5.065s] [ 13%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/action/detail/test_goal_and_result__functions.c.o[0m
+[5.082s] [ 14%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/action/detail/test_goal_feedback_and_result__functions.c.o[0m
+[5.090s] [ 14%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/action/detail/test_goal_only__functions.c.o[0m
+[5.115s] [ 14%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/action/detail/test_result_only__functions.c.o[0m
+[5.116s] [ 15%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_test_msgs/action/detail/test_multiple_goal_fields__functions.c.o[0m
+[5.388s] [ 15%] [32m[1mLinking C shared library librosbridge_test_msgs__rosidl_generator_c.so[0m
+[5.489s] [ 15%] Built target rosbridge_test_msgs__rosidl_generator_c
+[5.522s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.522s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.525s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.284s] [ 19%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_header__type_support.cpp.o[0m
+[7.285s] [ 19%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_header_array__type_support.cpp.o[0m
+[7.292s] [ 19%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_header_two__type_support.cpp.o[0m
+[7.292s] [ 19%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/num__type_support.cpp.o[0m
+[7.292s] [ 19%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_time_array__type_support.cpp.o[0m
+[7.292s] [ 20%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_duration_array__type_support.cpp.o[0m
+[7.292s] [ 20%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_char__type_support.cpp.o[0m
+[7.292s] [ 21%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_u_int8__type_support.cpp.o[0m
+[7.294s] [ 21%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_float32_array__type_support.cpp.o[0m
+[7.296s] [ 22%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_float32_bounded_array__type_support.cpp.o[0m
+[7.310s] [ 23%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_nested_bounded_array__type_support.cpp.o[0m
+[7.311s] [ 23%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/msg/test_u_int8_fixed_size_array16__type_support.cpp.o[0m
+[7.314s] [ 23%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[7.329s] [ 23%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/test_array_request__type_support.cpp.o[0m
+[7.341s] [ 23%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/send_bytes__type_support.cpp.o[0m
+[7.615s] [ 24%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/test_empty__type_support.cpp.o[0m
+[7.617s] [ 24%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/test_multiple_request_fields__type_support.cpp.o[0m
+[7.632s] [ 25%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/test_multiple_response_fields__type_support.cpp.o[0m
+[7.632s] [ 25%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/test_nested_service__type_support.cpp.o[0m
+[7.641s] [ 26%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/test_request_only__type_support.cpp.o[0m
+[7.641s] [ 26%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/test_request_and_response__type_support.cpp.o[0m
+[7.642s] [ 26%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/srv/test_response_only__type_support.cpp.o[0m
+[7.654s] [ 27%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/action/test_empty__type_support.cpp.o[0m
+[7.656s] [ 27%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/action/test_feedback_and_result__type_support.cpp.o[0m
+[7.657s] [ 27%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/action/test_goal_and_result__type_support.cpp.o[0m
+[7.679s] [ 28%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/action/test_goal_feedback_and_result__type_support.cpp.o[0m
+[7.714s] [ 28%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/action/test_goal_only__type_support.cpp.o[0m
+[7.725s] [ 29%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/action/test_multiple_goal_fields__type_support.cpp.o[0m
+[7.741s] [ 29%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_test_msgs/action/test_result_only__type_support.cpp.o[0m
+[7.763s] [ 29%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/num__type_support.cpp.o[0m
+[7.773s] [ 29%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_char__type_support.cpp.o[0m
+[7.821s] [ 30%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_duration_array__type_support.cpp.o[0m
+[7.836s] [ 30%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_header_array__type_support.cpp.o[0m
+[7.878s] [ 31%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_header__type_support.cpp.o[0m
+[7.905s] [ 31%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_header_two__type_support.cpp.o[0m
+[7.932s] [ 31%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_time_array__type_support.cpp.o[0m
+[7.936s] [ 31%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_u_int8_fixed_size_array16__type_support.cpp.o[0m
+[7.937s] [ 32%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_u_int8__type_support.cpp.o[0m
+[7.944s] [ 33%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_float32_array__type_support.cpp.o[0m
+[7.960s] [ 33%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_nested_bounded_array__type_support.cpp.o[0m
+[7.964s] [ 33%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/msg/test_float32_bounded_array__type_support.cpp.o[0m
+[7.965s] [ 34%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[7.988s] [ 34%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/send_bytes__type_support.cpp.o[0m
+[7.993s] [ 34%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/test_array_request__type_support.cpp.o[0m
+[8.002s] [ 35%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/test_empty__type_support.cpp.o[0m
+[8.002s] [ 35%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/test_multiple_request_fields__type_support.cpp.o[0m
+[8.002s] [ 36%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/test_multiple_response_fields__type_support.cpp.o[0m
+[8.005s] [ 36%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/test_nested_service__type_support.cpp.o[0m
+[8.010s] [ 36%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/test_request_and_response__type_support.cpp.o[0m
+[8.033s] [ 36%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/test_response_only__type_support.cpp.o[0m
+[8.034s] [ 37%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/action/test_empty__type_support.cpp.o[0m
+[8.034s] [ 38%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/srv/test_request_only__type_support.cpp.o[0m
+[8.042s] [ 38%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/action/test_feedback_and_result__type_support.cpp.o[0m
+[8.047s] [ 38%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/action/test_goal_and_result__type_support.cpp.o[0m
+[8.049s] [ 39%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/action/test_goal_feedback_and_result__type_support.cpp.o[0m
+[8.062s] [ 39%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/action/test_goal_only__type_support.cpp.o[0m
+[8.064s] [ 39%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/action/test_result_only__type_support.cpp.o[0m
+[8.072s] [ 40%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_test_msgs/action/test_multiple_goal_fields__type_support.cpp.o[0m
+[8.126s] [ 40%] [32m[1mLinking CXX shared library librosbridge_test_msgs__rosidl_typesupport_c.so[0m
+[8.164s] [ 40%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/num__type_support.cpp.o[0m
+[8.164s] [ 41%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_char__type_support.cpp.o[0m
+[8.165s] [ 40%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_duration_array__type_support.cpp.o[0m
+[8.165s] [ 41%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_header_array__type_support.cpp.o[0m
+[8.169s] [ 42%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_header__type_support.cpp.o[0m
+[8.170s] [ 42%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_time_array__type_support.cpp.o[0m
+[8.171s] [ 42%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_header_two__type_support.cpp.o[0m
+[8.173s] [ 43%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_u_int8__type_support.cpp.o[0m
+[8.174s] [ 43%] Built target rosbridge_test_msgs__rosidl_typesupport_c
+[8.177s] [ 43%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__type_support.cpp.o[0m
+[8.185s] [ 44%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_float32_array__type_support.cpp.o[0m
+[8.190s] [ 44%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__type_support.cpp.o[0m
+[8.190s] [ 44%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/msg/detail/test_nested_bounded_array__type_support.cpp.o[0m
+[8.208s] [ 45%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/add_two_ints__type_support.cpp.o[0m
+[8.223s] [ 45%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/send_bytes__type_support.cpp.o[0m
+[8.242s] [ 46%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/test_array_request__type_support.cpp.o[0m
+[8.270s] [ 46%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/test_empty__type_support.cpp.o[0m
+[8.306s] [ 46%] [32m[1mLinking CXX shared library librosbridge_test_msgs__rosidl_typesupport_cpp.so[0m
+[8.403s] [ 46%] Built target rosbridge_test_msgs__rosidl_typesupport_cpp
+[8.472s] [ 46%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__type_support.cpp.o[0m
+[8.610s] [ 47%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__type_support.cpp.o[0m
+[8.627s] [ 47%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/test_nested_service__type_support.cpp.o[0m
+[8.631s] [ 47%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/test_request_only__type_support.cpp.o[0m
+[8.632s] [ 47%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/test_response_only__type_support.cpp.o[0m
+[8.632s] [ 48%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/srv/detail/test_request_and_response__type_support.cpp.o[0m
+[8.638s] [ 49%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/action/detail/test_empty__type_support.cpp.o[0m
+[8.641s] [ 49%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[8.642s] [ 49%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/action/detail/test_feedback_and_result__type_support.cpp.o[0m
+[8.646s] [ 50%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/action/detail/test_goal_and_result__type_support.cpp.o[0m
+[8.646s] [ 50%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_char__type_support.cpp.o[0m
+[8.648s] [ 50%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/action/detail/test_goal_feedback_and_result__type_support.cpp.o[0m
+[8.649s] [ 50%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/action/detail/test_goal_only__type_support.cpp.o[0m
+[8.651s] [ 51%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_duration_array__type_support.cpp.o[0m
+[8.654s] [ 51%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_header_array__type_support.cpp.o[0m
+[8.663s] [ 52%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_header__type_support.cpp.o[0m
+[8.694s] [ 53%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/action/detail/test_multiple_goal_fields__type_support.cpp.o[0m
+[8.762s] [ 53%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_header_two__type_support.cpp.o[0m
+[8.916s] [ 53%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_time_array__type_support.cpp.o[0m
+[8.987s] [ 53%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/num__type_support_c.cpp.o[0m
+[9.029s] [ 53%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/num__type_support.c.o[0m
+[9.033s] [ 54%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_char__type_support.c.o[0m
+[9.046s] [ 55%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_u_int8__type_support.cpp.o[0m
+[9.068s] [ 55%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_char__type_support_c.cpp.o[0m
+[9.070s] [ 55%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_test_msgs/action/detail/test_result_only__type_support.cpp.o[0m
+[9.076s] [ 55%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_u_int8_fixed_size_array16__type_support.cpp.o[0m
+[9.080s] [ 56%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_duration_array__type_support_c.cpp.o[0m
+[9.089s] [ 57%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_float32_array__type_support.cpp.o[0m
+[9.090s] [ 57%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_duration_array__type_support.c.o[0m
+[9.100s] [ 57%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_header_array__type_support_c.cpp.o[0m
+[9.127s] [ 57%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_header_array__type_support.c.o[0m
+[9.156s] [ 57%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_float32_bounded_array__type_support.cpp.o[0m
+[9.164s] [ 58%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_header__type_support_c.cpp.o[0m
+[9.196s] [ 58%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_header_two__type_support_c.cpp.o[0m
+[9.202s] [ 58%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_time_array__type_support_c.cpp.o[0m
+[9.205s] [ 59%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_header__type_support.c.o[0m
+[9.243s] [ 59%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_header_two__type_support.c.o[0m
+[9.287s] [ 60%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_time_array__type_support.c.o[0m
+[9.289s] [ 61%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_u_int8__type_support_c.cpp.o[0m
+[9.308s] [ 61%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_u_int8__type_support.c.o[0m
+[9.342s] [ 61%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/msg/detail/dds_fastrtps/test_nested_bounded_array__type_support.cpp.o[0m
+[9.372s] [ 61%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__type_support.c.o[0m
+[9.379s] [ 61%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__type_support_c.cpp.o[0m
+[9.397s] [ 62%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[9.406s] [ 62%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/send_bytes__type_support.cpp.o[0m
+[9.409s] [ 63%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_float32_array__type_support.c.o[0m
+[9.415s] [ 63%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__type_support.c.o[0m
+[9.422s] [ 64%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_float32_array__type_support_c.cpp.o[0m
+[9.430s] [ 65%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/test_array_request__type_support.cpp.o[0m
+[9.444s] [ 65%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__type_support_c.cpp.o[0m
+[9.452s] [ 66%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/msg/detail/test_nested_bounded_array__type_support.c.o[0m
+[9.459s] [ 66%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/test_empty__type_support.cpp.o[0m
+[9.462s] [ 66%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/msg/detail/test_nested_bounded_array__type_support_c.cpp.o[0m
+[9.497s] [ 66%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[9.499s] [ 67%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[9.513s] [ 67%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/test_multiple_request_fields__type_support.cpp.o[0m
+[9.546s] [ 67%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/send_bytes__type_support.c.o[0m
+[9.550s] [ 67%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/send_bytes__type_support_c.cpp.o[0m
+[9.555s] [ 68%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/test_array_request__type_support_c.cpp.o[0m
+[9.571s] [ 68%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/test_empty__type_support_c.cpp.o[0m
+[9.583s] [ 69%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/test_multiple_response_fields__type_support.cpp.o[0m
+[9.596s] [ 69%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/test_nested_service__type_support.cpp.o[0m
+[9.599s] [ 70%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/test_array_request__type_support.c.o[0m
+[9.636s] [ 70%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/test_empty__type_support.c.o[0m
+[9.668s] [ 70%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__type_support.c.o[0m
+[9.685s] [ 70%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/test_request_and_response__type_support.cpp.o[0m
+[9.708s] [ 71%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__type_support.c.o[0m
+[9.739s] [ 72%] [32m[1mLinking CXX shared library librosbridge_test_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.754s] [ 72%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/test_nested_service__type_support.c.o[0m
+[9.765s] [ 73%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/test_request_only__type_support.cpp.o[0m
+[9.767s] [ 73%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/srv/detail/dds_fastrtps/test_response_only__type_support.cpp.o[0m
+[9.780s] [ 74%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/test_request_and_response__type_support.c.o[0m
+[9.799s] [ 74%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/test_request_only__type_support.c.o[0m
+[9.817s] [ 74%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__type_support_c.cpp.o[0m
+[9.834s] [ 75%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__type_support_c.cpp.o[0m
+[9.836s] [ 75%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/srv/detail/test_response_only__type_support.c.o[0m
+[9.843s] [ 75%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/test_nested_service__type_support_c.cpp.o[0m
+[9.843s] [ 75%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/action/detail/test_feedback_and_result__type_support.c.o[0m
+[9.850s] [ 76%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/action/detail/test_empty__type_support.c.o[0m
+[9.854s] [ 77%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/action/detail/dds_fastrtps/test_empty__type_support.cpp.o[0m
+[9.881s] [ 77%] Built target rosbridge_test_msgs__rosidl_typesupport_introspection_cpp
+[9.892s] [ 77%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/action/detail/dds_fastrtps/test_goal_and_result__type_support.cpp.o[0m
+[9.892s] [ 78%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/test_request_and_response__type_support_c.cpp.o[0m
+[9.901s] [ 78%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/action/detail/dds_fastrtps/test_feedback_and_result__type_support.cpp.o[0m
+[9.904s] [ 79%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/action/detail/test_goal_and_result__type_support.c.o[0m
+[9.906s] [ 79%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/action/detail/test_goal_feedback_and_result__type_support.c.o[0m
+[9.915s] [ 79%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/action/detail/test_goal_only__type_support.c.o[0m
+[9.920s] [ 80%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/action/detail/test_multiple_goal_fields__type_support.c.o[0m
+[9.938s] [ 80%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/test_request_only__type_support_c.cpp.o[0m
+[9.946s] [ 80%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_test_msgs/action/detail/test_result_only__type_support.c.o[0m
+[9.955s] [ 81%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/action/detail/dds_fastrtps/test_goal_feedback_and_result__type_support.cpp.o[0m
+[9.968s] [ 81%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/action/detail/dds_fastrtps/test_goal_only__type_support.cpp.o[0m
+[9.968s] [ 82%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/action/detail/test_empty__type_support_c.cpp.o[0m
+[9.969s] [ 82%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/srv/detail/test_response_only__type_support_c.cpp.o[0m
+[9.976s] [ 83%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/action/detail/dds_fastrtps/test_multiple_goal_fields__type_support.cpp.o[0m
+[9.988s] [ 83%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/action/detail/test_feedback_and_result__type_support_c.cpp.o[0m
+[9.996s] [ 84%] [32m[1mLinking C shared library librosbridge_test_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.997s] [ 85%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/action/detail/test_goal_and_result__type_support_c.cpp.o[0m
+[10.046s] [ 85%] Built target rosbridge_test_msgs__rosidl_typesupport_introspection_c
+[10.058s] [ 85%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/action/detail/test_goal_feedback_and_result__type_support_c.cpp.o[0m
+[10.077s] [ 85%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_test_msgs/action/detail/dds_fastrtps/test_result_only__type_support.cpp.o[0m
+[10.182s] [ 85%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/action/detail/test_goal_only__type_support_c.cpp.o[0m
+[10.192s] [ 86%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/action/detail/test_multiple_goal_fields__type_support_c.cpp.o[0m
+[10.208s] [ 86%] [32mBuilding CXX object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_test_msgs/action/detail/test_result_only__type_support_c.cpp.o[0m
+[10.559s] [ 86%] [32m[1mLinking CXX shared library librosbridge_test_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[10.582s] [ 86%] [32m[1mLinking CXX shared library librosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.625s] [ 86%] Built target rosbridge_test_msgs__rosidl_typesupport_fastrtps_c
+[10.650s] [ 86%] Built target rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp
+[10.670s] [ 86%] Built target rosbridge_test_msgs
+[10.690s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.323s] [ 86%] Built target rosbridge_test_msgs__py
+[14.352s] [ 86%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_char_s.c.o[0m
+[14.353s] [ 86%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_header_array_s.c.o[0m
+[14.353s] [ 87%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_num_s.c.o[0m
+[14.355s] [ 87%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_time_array_s.c.o[0m
+[14.356s] [ 88%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_header_two_s.c.o[0m
+[14.357s] [ 89%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_header_s.c.o[0m
+[14.358s] [ 89%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_u_int8_fixed_size_array16_s.c.o[0m
+[14.359s] [ 90%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_u_int8_s.c.o[0m
+[14.359s] [ 90%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_duration_array_s.c.o[0m
+[14.359s] [ 91%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_float32_bounded_array_s.c.o[0m
+[14.359s] [ 91%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_float32_array_s.c.o[0m
+[14.362s] [ 91%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_test_array_request_s.c.o[0m
+[14.362s] [ 91%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/msg/_test_nested_bounded_array_s.c.o[0m
+[14.363s] [ 91%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_send_bytes_s.c.o[0m
+[14.365s] [ 93%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_test_empty_s.c.o[0m
+[14.367s] [ 92%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_add_two_ints_s.c.o[0m
+[14.367s] [ 93%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_test_multiple_request_fields_s.c.o[0m
+[14.368s] [ 94%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_test_multiple_response_fields_s.c.o[0m
+[14.370s] [ 94%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_test_nested_service_s.c.o[0m
+[14.371s] [ 94%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_test_request_and_response_s.c.o[0m
+[14.479s] [ 95%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_test_request_only_s.c.o[0m
+[14.480s] [ 95%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/action/_test_multiple_goal_fields_s.c.o[0m
+[14.480s] [ 96%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/action/_test_feedback_and_result_s.c.o[0m
+[14.480s] [ 96%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/srv/_test_response_only_s.c.o[0m
+[14.480s] [ 96%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/action/_test_empty_s.c.o[0m
+[14.480s] [ 97%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/action/_test_goal_and_result_s.c.o[0m
+[14.480s] [ 97%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/action/_test_goal_feedback_and_result_s.c.o[0m
+[14.481s] [ 97%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/action/_test_goal_only_s.c.o[0m
+[14.483s] [ 98%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rosbridge_test_msgs/action/_test_result_only_s.c.o[0m
+[14.608s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/rosbridge_test_msgs/librosbridge_test_msgs__rosidl_generator_py.so[0m
+[14.662s] [ 98%] Built target rosbridge_test_msgs__rosidl_generator_py
+[14.692s] [ 99%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rosbridge_test_msgs/_rosbridge_test_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[14.693s] [100%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rosbridge_test_msgs/_rosbridge_test_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.693s] [100%] [32mBuilding C object CMakeFiles/rosbridge_test_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rosbridge_test_msgs/_rosbridge_test_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.925s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.931s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.931s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.964s] [100%] Built target rosbridge_test_msgs__rosidl_typesupport_fastrtps_c__pyext
+[14.972s] [100%] Built target rosbridge_test_msgs__rosidl_typesupport_c__pyext
+[14.972s] [100%] Built target rosbridge_test_msgs__rosidl_typesupport_introspection_c__pyext
+[14.982s] Invoked command in '/home/leyla/Desktop/nexus_ws/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/nexus_ws/install/code_py:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Desktop/nexus_ws/build/rosbridge_test_msgs -- -j20 -l20
+[14.983s] Invoking command in '/home/leyla/Desktop/nexus_ws/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/nexus_ws/install/code_py:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Desktop/nexus_ws/build/rosbridge_test_msgs
+[14.989s] -- Install configuration: ""
+[14.989s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/ament_index/resource_index/rosidl_interfaces/rosbridge_test_msgs
+[14.989s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs
+[14.989s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv
+[14.989s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/add_two_ints.h
+[14.989s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_array_request.h
+[14.989s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_request_and_response.h
+[14.989s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/send_bytes.h
+[14.989s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail
+[14.989s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__functions.c
+[14.989s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__functions.c
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__struct.h
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__struct.h
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__functions.c
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__functions.h
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__functions.h
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__functions.h
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__type_support.h
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__functions.c
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__functions.h
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__type_support.h
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__struct.h
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__type_support.h
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__functions.c
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__struct.h
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__functions.h
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__type_support.h
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__functions.h
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__struct.h
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__functions.c
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__type_support.h
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__functions.c
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__struct.h
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__functions.h
+[14.990s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__struct.h
+[14.991s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__type_support.h
+[14.991s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__struct.h
+[14.991s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__type_support.h
+[14.991s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__struct.h
+[14.991s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__functions.h
+[14.991s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__type_support.h
+[14.991s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__functions.c
+[14.991s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__functions.h
+[14.991s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__struct.h
+[14.991s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__functions.c
+[14.991s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__functions.c
+[14.991s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__type_support.h
+[14.991s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__type_support.h
+[14.991s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__functions.h
+[14.991s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_multiple_response_fields.h
+[14.991s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_request_only.h
+[14.991s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_multiple_request_fields.h
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_nested_service.h
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_empty.h
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_response_only.h
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/test_goal_only.h
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/test_goal_and_result.h
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_feedback_and_result__type_support.h
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_only__type_support.h
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_only__functions.h
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_feedback_and_result__functions.c
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_and_result__functions.c
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_feedback_and_result__functions.h
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_result_only__struct.h
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_and_result__struct.h
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_multiple_goal_fields__struct.h
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_multiple_goal_fields__functions.h
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_feedback_and_result__functions.h
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_feedback_and_result__struct.h
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_multiple_goal_fields__functions.c
+[14.992s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_feedback_and_result__type_support.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_only__functions.c
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_empty__functions.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_and_result__functions.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_feedback_and_result__functions.c
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_and_result__type_support.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_multiple_goal_fields__type_support.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_only__struct.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_feedback_and_result__struct.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_empty__struct.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_result_only__functions.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_result_only__functions.c
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_empty__functions.c
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_result_only__type_support.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_empty__type_support.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/test_goal_feedback_and_result.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/test_result_only.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/test_feedback_and_result.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/test_empty.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/test_multiple_goal_fields.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_header_array.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_float32_bounded_array.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/num.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_char.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_header.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/rosidl_generator_c__visibility_control.h
+[14.993s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_time_array.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__type_support.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__struct.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__functions.c
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__struct.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__functions.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__type_support.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__type_support.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__functions.c
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__struct.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__type_support.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__struct.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__type_support.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__struct.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__functions.c
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__functions.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__struct.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__type_support.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__functions.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__functions.c
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__functions.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__type_support.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__functions.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__functions.c
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__functions.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__functions.h
+[14.994s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__struct.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_nested_bounded_array__functions.c
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__functions.c
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__functions.c
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__struct.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__functions.c
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__functions.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__struct.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__functions.c
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__functions.c
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_nested_bounded_array__functions.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__functions.c
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_nested_bounded_array__struct.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__functions.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__struct.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__type_support.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_nested_bounded_array__type_support.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__functions.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__functions.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__type_support.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__struct.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__type_support.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__type_support.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_u_int8_fixed_size_array16.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_header_two.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_nested_bounded_array.h
+[14.995s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_duration_array.h
+[14.996s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_float32_array.h
+[14.996s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_u_int8.h
+[14.996s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/environment/library_path.sh
+[14.996s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/environment/library_path.dsv
+[14.996s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_generator_c.so
+[14.996s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_generator_c.so" to ""
+[14.996s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs
+[14.996s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv
+[14.996s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail
+[14.996s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__rosidl_typesupport_fastrtps_c.h
+[14.996s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__rosidl_typesupport_fastrtps_c.h
+[14.996s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__rosidl_typesupport_fastrtps_c.h
+[14.996s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__rosidl_typesupport_fastrtps_c.h
+[14.996s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__rosidl_typesupport_fastrtps_c.h
+[14.996s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__rosidl_typesupport_fastrtps_c.h
+[14.996s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action
+[14.997s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_feedback_and_result__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_feedback_and_result__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_and_result__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_multiple_goal_fields__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_only__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_result_only__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_empty__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg
+[14.997s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_nested_bounded_array__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[14.997s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__rosidl_typesupport_fastrtps_c.h
+[14.998s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__rosidl_typesupport_fastrtps_c.h
+[14.998s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.998s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_fastrtps_c.so
+[14.998s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[14.998s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs
+[14.998s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv
+[14.998s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_request_and_response.hpp
+[14.998s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_response_only.hpp
+[14.998s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_multiple_response_fields.hpp
+[14.998s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_multiple_request_fields.hpp
+[14.998s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail
+[14.998s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__struct.hpp
+[14.998s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__type_support.hpp
+[14.998s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__builder.hpp
+[14.998s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__type_support.hpp
+[14.998s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__struct.hpp
+[14.998s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__struct.hpp
+[14.998s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__type_support.hpp
+[14.998s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__builder.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__struct.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__builder.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__traits.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__type_support.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__builder.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__builder.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__builder.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__struct.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__traits.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__struct.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__traits.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__traits.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__type_support.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__builder.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__traits.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__traits.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__struct.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__traits.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__type_support.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__builder.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__type_support.hpp
+[14.999s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__builder.hpp
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__type_support.hpp
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__type_support.hpp
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__traits.hpp
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__traits.hpp
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__struct.hpp
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__struct.hpp
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__struct.hpp
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__type_support.hpp
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__builder.hpp
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__traits.hpp
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/add_two_ints.hpp
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_empty.hpp
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_array_request.hpp
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/send_bytes.hpp
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_request_only.hpp
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/test_nested_service.hpp
+[15.000s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/test_goal_and_result.hpp
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/test_result_only.hpp
+[15.000s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/test_feedback_and_result.hpp
+[15.000s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail
+[15.001s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_result_only__builder.hpp
+[15.001s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_feedback_and_result__type_support.hpp
+[15.001s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_multiple_goal_fields__builder.hpp
+[15.001s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_empty__builder.hpp
+[15.001s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_only__struct.hpp
+[15.001s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_feedback_and_result__builder.hpp
+[15.001s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_multiple_goal_fields__traits.hpp
+[15.001s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_only__type_support.hpp
+[15.001s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_feedback_and_result__struct.hpp
+[15.001s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_empty__traits.hpp
+[15.001s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_empty__struct.hpp
+[15.001s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_result_only__type_support.hpp
+[15.001s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_and_result__builder.hpp
+[15.001s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_multiple_goal_fields__type_support.hpp
+[15.001s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_feedback_and_result__traits.hpp
+[15.001s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_feedback_and_result__builder.hpp
+[15.001s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_feedback_and_result__struct.hpp
+[15.001s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_and_result__struct.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_and_result__type_support.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_only__builder.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_only__traits.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_result_only__struct.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_feedback_and_result__traits.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_feedback_and_result__type_support.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_and_result__traits.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_empty__type_support.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_multiple_goal_fields__struct.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_result_only__traits.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/test_empty.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/test_goal_feedback_and_result.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/test_goal_only.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/test_multiple_goal_fields.hpp
+[15.002s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_header_array.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_float32_array.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_char.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_header_two.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_nested_bounded_array.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_time_array.hpp
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_u_int8_fixed_size_array16.hpp
+[15.002s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail
+[15.002s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__type_support.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_nested_bounded_array__type_support.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__type_support.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__traits.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_nested_bounded_array__struct.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__builder.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__struct.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__struct.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__type_support.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__struct.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__type_support.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__traits.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__struct.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__builder.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__type_support.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__type_support.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_nested_bounded_array__builder.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__type_support.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__struct.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__traits.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__traits.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__traits.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_nested_bounded_array__traits.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__struct.hpp
+[15.003s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__traits.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__builder.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__builder.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__struct.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__traits.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__type_support.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__struct.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__type_support.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__traits.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__traits.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__builder.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__traits.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__type_support.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__builder.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__builder.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__traits.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__struct.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__builder.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__type_support.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__builder.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__struct.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__struct.hpp
+[15.004s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__builder.hpp
+[15.005s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__builder.hpp
+[15.005s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_u_int8.hpp
+[15.005s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/num.hpp
+[15.005s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_header.hpp
+[15.005s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_duration_array.hpp
+[15.005s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/test_float32_bounded_array.hpp
+[15.005s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs
+[15.005s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv
+[15.005s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail
+[15.005s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__rosidl_typesupport_fastrtps_cpp.hpp
+[15.005s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__rosidl_typesupport_fastrtps_cpp.hpp
+[15.005s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/dds_fastrtps
+[15.005s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__rosidl_typesupport_fastrtps_cpp.hpp
+[15.005s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__rosidl_typesupport_fastrtps_cpp.hpp
+[15.005s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__rosidl_typesupport_fastrtps_cpp.hpp
+[15.005s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__rosidl_typesupport_fastrtps_cpp.hpp
+[15.005s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__rosidl_typesupport_fastrtps_cpp.hpp
+[15.005s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__rosidl_typesupport_fastrtps_cpp.hpp
+[15.005s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__rosidl_typesupport_fastrtps_cpp.hpp
+[15.005s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[15.005s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action
+[15.005s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_result_only__rosidl_typesupport_fastrtps_cpp.hpp
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_feedback_and_result__rosidl_typesupport_fastrtps_cpp.hpp
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/dds_fastrtps
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_multiple_goal_fields__rosidl_typesupport_fastrtps_cpp.hpp
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_feedback_and_result__rosidl_typesupport_fastrtps_cpp.hpp
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_and_result__rosidl_typesupport_fastrtps_cpp.hpp
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_only__rosidl_typesupport_fastrtps_cpp.hpp
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_empty__rosidl_typesupport_fastrtps_cpp.hpp
+[15.006s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.006s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__rosidl_typesupport_fastrtps_cpp.hpp
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_nested_bounded_array__rosidl_typesupport_fastrtps_cpp.hpp
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__rosidl_typesupport_fastrtps_cpp.hpp
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/dds_fastrtps
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__rosidl_typesupport_fastrtps_cpp.hpp
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__rosidl_typesupport_fastrtps_cpp.hpp
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__rosidl_typesupport_fastrtps_cpp.hpp
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__rosidl_typesupport_fastrtps_cpp.hpp
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__rosidl_typesupport_fastrtps_cpp.hpp
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__rosidl_typesupport_fastrtps_cpp.hpp
+[15.006s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__rosidl_typesupport_fastrtps_cpp.hpp
+[15.007s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__rosidl_typesupport_fastrtps_cpp.hpp
+[15.007s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.so
+[15.007s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.007s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs
+[15.007s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv
+[15.007s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail
+[15.007s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__rosidl_typesupport_introspection_c.h
+[15.007s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[15.007s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__type_support.c
+[15.007s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__rosidl_typesupport_introspection_c.h
+[15.007s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__rosidl_typesupport_introspection_c.h
+[15.007s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__type_support.c
+[15.007s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__rosidl_typesupport_introspection_c.h
+[15.007s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__type_support.c
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__rosidl_typesupport_introspection_c.h
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__rosidl_typesupport_introspection_c.h
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__rosidl_typesupport_introspection_c.h
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__type_support.c
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__rosidl_typesupport_introspection_c.h
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__type_support.c
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__type_support.c
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__type_support.c
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__type_support.c
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__type_support.c
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__type_support.c
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__rosidl_typesupport_introspection_c.h
+[15.008s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action
+[15.008s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_feedback_and_result__rosidl_typesupport_introspection_c.h
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_multiple_goal_fields__rosidl_typesupport_introspection_c.h
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_feedback_and_result__type_support.c
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_only__rosidl_typesupport_introspection_c.h
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_empty__rosidl_typesupport_introspection_c.h
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_feedback_and_result__rosidl_typesupport_introspection_c.h
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_and_result__type_support.c
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_result_only__rosidl_typesupport_introspection_c.h
+[15.008s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_and_result__rosidl_typesupport_introspection_c.h
+[15.009s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_empty__type_support.c
+[15.009s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_result_only__type_support.c
+[15.009s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_feedback_and_result__type_support.c
+[15.009s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_only__type_support.c
+[15.009s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_multiple_goal_fields__type_support.c
+[15.009s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg
+[15.009s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail
+[15.009s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_nested_bounded_array__rosidl_typesupport_introspection_c.h
+[15.009s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__rosidl_typesupport_introspection_c.h
+[15.009s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__rosidl_typesupport_introspection_c.h
+[15.009s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__type_support.c
+[15.009s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__type_support.c
+[15.009s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__type_support.c
+[15.009s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__rosidl_typesupport_introspection_c.h
+[15.009s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__type_support.c
+[15.009s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__type_support.c
+[15.009s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__rosidl_typesupport_introspection_c.h
+[15.009s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__type_support.c
+[15.009s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__rosidl_typesupport_introspection_c.h
+[15.009s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_nested_bounded_array__type_support.c
+[15.010s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__rosidl_typesupport_introspection_c.h
+[15.010s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__type_support.c
+[15.010s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__rosidl_typesupport_introspection_c.h
+[15.010s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__rosidl_typesupport_introspection_c.h
+[15.010s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__type_support.c
+[15.010s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__type_support.c
+[15.010s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__rosidl_typesupport_introspection_c.h
+[15.010s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__rosidl_typesupport_introspection_c.h
+[15.010s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__rosidl_typesupport_introspection_c.h
+[15.010s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__type_support.c
+[15.010s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__type_support.c
+[15.010s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.010s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_introspection_c.so
+[15.010s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_introspection_c.so" to ""
+[15.010s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_c.so
+[15.011s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_c.so" to ""
+[15.011s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs
+[15.011s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv
+[15.011s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__rosidl_typesupport_introspection_cpp.hpp
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__rosidl_typesupport_introspection_cpp.hpp
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_and_response__type_support.cpp
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__rosidl_typesupport_introspection_cpp.hpp
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__rosidl_typesupport_introspection_cpp.hpp
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__rosidl_typesupport_introspection_cpp.hpp
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__type_support.cpp
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/add_two_ints__type_support.cpp
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_response_only__type_support.cpp
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/send_bytes__rosidl_typesupport_introspection_cpp.hpp
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__rosidl_typesupport_introspection_cpp.hpp
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_response_fields__type_support.cpp
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__rosidl_typesupport_introspection_cpp.hpp
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__rosidl_typesupport_introspection_cpp.hpp
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_nested_service__type_support.cpp
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_request_only__type_support.cpp
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_empty__type_support.cpp
+[15.011s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_array_request__type_support.cpp
+[15.012s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/srv/detail/test_multiple_request_fields__type_support.cpp
+[15.012s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action
+[15.012s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail
+[15.012s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_feedback_and_result__type_support.cpp
+[15.012s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_feedback_and_result__type_support.cpp
+[15.012s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_result_only__rosidl_typesupport_introspection_cpp.hpp
+[15.012s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_multiple_goal_fields__type_support.cpp
+[15.012s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_and_result__type_support.cpp
+[15.012s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_only__rosidl_typesupport_introspection_cpp.hpp
+[15.012s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_multiple_goal_fields__rosidl_typesupport_introspection_cpp.hpp
+[15.012s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_only__type_support.cpp
+[15.012s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_empty__rosidl_typesupport_introspection_cpp.hpp
+[15.012s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_feedback_and_result__rosidl_typesupport_introspection_cpp.hpp
+[15.012s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_and_result__rosidl_typesupport_introspection_cpp.hpp
+[15.012s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_result_only__type_support.cpp
+[15.012s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_empty__type_support.cpp
+[15.012s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/action/detail/test_goal_feedback_and_result__rosidl_typesupport_introspection_cpp.hpp
+[15.012s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg
+[15.012s] -- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail
+[15.012s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__rosidl_typesupport_introspection_cpp.hpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__rosidl_typesupport_introspection_cpp.hpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_nested_bounded_array__rosidl_typesupport_introspection_cpp.hpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_nested_bounded_array__type_support.cpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__type_support.cpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__rosidl_typesupport_introspection_cpp.hpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8_fixed_size_array16__type_support.cpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__type_support.cpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__rosidl_typesupport_introspection_cpp.hpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_array__rosidl_typesupport_introspection_cpp.hpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header__type_support.cpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_header_two__type_support.cpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__type_support.cpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__type_support.cpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__type_support.cpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__rosidl_typesupport_introspection_cpp.hpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_u_int8__type_support.cpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__type_support.cpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_time_array__rosidl_typesupport_introspection_cpp.hpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_array__type_support.cpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_char__rosidl_typesupport_introspection_cpp.hpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_float32_bounded_array__rosidl_typesupport_introspection_cpp.hpp
+[15.013s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/include/rosbridge_test_msgs/rosbridge_test_msgs/msg/detail/test_duration_array__rosidl_typesupport_introspection_cpp.hpp
+[15.014s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_introspection_cpp.so
+[15.014s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[15.014s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_cpp.so
+[15.014s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_typesupport_cpp.so" to ""
+[15.014s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/environment/pythonpath.sh
+[15.014s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/environment/pythonpath.dsv
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs-2.0.1-py3.10.egg-info
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs-2.0.1-py3.10.egg-info/SOURCES.txt
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs-2.0.1-py3.10.egg-info/dependency_links.txt
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs-2.0.1-py3.10.egg-info/PKG-INFO
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs-2.0.1-py3.10.egg-info/top_level.txt
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/__init__.py
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_response_only.py
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_array_request.py
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_array_request_s.c
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_request_only_s.c
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_empty.py
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_multiple_response_fields_s.c
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_multiple_request_fields_s.c
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_response_only_s.c
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_add_two_ints_s.c
+[15.015s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_send_bytes_s.c
+[15.016s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_nested_service.py
+[15.016s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_nested_service_s.c
+[15.016s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_add_two_ints.py
+[15.016s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_multiple_request_fields.py
+[15.016s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_empty_s.c
+[15.016s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_send_bytes.py
+[15.016s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_request_and_response_s.c
+[15.016s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_multiple_response_fields.py
+[15.016s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_request_only.py
+[15.016s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_request_and_response.py
+[15.016s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/__init__.py
+[15.016s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/librosbridge_test_msgs__rosidl_generator_py.so
+[15.016s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/_rosbridge_test_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[15.016s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action
+[15.017s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_goal_and_result.py
+[15.017s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_goal_feedback_and_result_s.c
+[15.017s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/__init__.py
+[15.017s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_goal_only.py
+[15.017s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_goal_and_result_s.c
+[15.017s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_empty.py
+[15.017s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_result_only_s.c
+[15.017s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_multiple_goal_fields_s.c
+[15.017s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_goal_feedback_and_result.py
+[15.017s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_goal_only_s.c
+[15.017s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_feedback_and_result.py
+[15.017s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_empty_s.c
+[15.017s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_multiple_goal_fields.py
+[15.017s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_result_only.py
+[15.017s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_feedback_and_result_s.c
+[15.017s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.018s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.018s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg
+[15.018s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_header_array_s.c
+[15.018s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_time_array_s.c
+[15.018s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_num.py
+[15.018s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_u_int8_s.c
+[15.018s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_time_array.py
+[15.018s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/__init__.py
+[15.018s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_duration_array_s.c
+[15.018s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_header_array.py
+[15.018s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_u_int8_fixed_size_array16.py
+[15.018s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_nested_bounded_array_s.c
+[15.018s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_num_s.c
+[15.018s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_char.py
+[15.018s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_char_s.c
+[15.018s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_float32_array.py
+[15.018s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_header_two_s.c
+[15.018s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_header.py
+[15.019s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_u_int8.py
+[15.019s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_nested_bounded_array.py
+[15.019s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_float32_bounded_array.py
+[15.019s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_header_two.py
+[15.019s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_float32_bounded_array_s.c
+[15.019s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_duration_array.py
+[15.019s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_u_int8_fixed_size_array16_s.c
+[15.019s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_header_s.c
+[15.019s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_float32_array_s.c
+[15.019s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/_rosbridge_test_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.019s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/_rosbridge_test_msgs_s.ep.rosidl_typesupport_c.c
+[15.086s] Listing '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/__init__.py'...
+[15.086s] Listing '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/__init__.py'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_empty.py'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_feedback_and_result.py'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_goal_and_result.py'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_goal_feedback_and_result.py'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_goal_only.py'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_multiple_goal_fields.py'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/action/_test_result_only.py'...
+[15.086s] Listing '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/__init__.py'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_num.py'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_char.py'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_duration_array.py'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_float32_array.py'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_float32_bounded_array.py'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_header.py'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_header_array.py'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_header_two.py'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_nested_bounded_array.py'...
+[15.086s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_time_array.py'...
+[15.087s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_u_int8.py'...
+[15.087s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/msg/_test_u_int8_fixed_size_array16.py'...
+[15.087s] Listing '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv'...
+[15.087s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/__init__.py'...
+[15.087s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_add_two_ints.py'...
+[15.087s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_send_bytes.py'...
+[15.087s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_array_request.py'...
+[15.087s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_empty.py'...
+[15.087s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_multiple_request_fields.py'...
+[15.087s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_multiple_response_fields.py'...
+[15.087s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_nested_service.py'...
+[15.087s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_request_and_response.py'...
+[15.087s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_request_only.py'...
+[15.087s] Compiling '/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/srv/_test_response_only.py'...
+[15.089s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.089s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.089s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.090s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.090s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.090s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages/rosbridge_test_msgs/rosbridge_test_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.090s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_generator_py.so
+[15.091s] -- Set runtime path of "/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib/librosbridge_test_msgs__rosidl_generator_py.so" to ""
+[15.091s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/Num.idl
+[15.091s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestChar.idl
+[15.091s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestDurationArray.idl
+[15.091s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestHeaderArray.idl
+[15.091s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestHeader.idl
+[15.091s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestHeaderTwo.idl
+[15.091s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestTimeArray.idl
+[15.091s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestUInt8.idl
+[15.091s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestUInt8FixedSizeArray16.idl
+[15.091s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestFloat32Array.idl
+[15.091s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestFloat32BoundedArray.idl
+[15.091s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestNestedBoundedArray.idl
+[15.091s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/AddTwoInts.idl
+[15.091s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/SendBytes.idl
+[15.092s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestArrayRequest.idl
+[15.092s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestEmpty.idl
+[15.092s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestMultipleRequestFields.idl
+[15.092s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestMultipleResponseFields.idl
+[15.092s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestNestedService.idl
+[15.092s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestRequestAndResponse.idl
+[15.092s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestRequestOnly.idl
+[15.092s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestResponseOnly.idl
+[15.092s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/action/TestEmpty.idl
+[15.092s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/action/TestFeedbackAndResult.idl
+[15.092s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/action/TestGoalAndResult.idl
+[15.092s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/action/TestGoalFeedbackAndResult.idl
+[15.092s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/action/TestGoalOnly.idl
+[15.093s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/action/TestMultipleGoalFields.idl
+[15.093s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/action/TestResultOnly.idl
+[15.093s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/Num.msg
+[15.093s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestChar.msg
+[15.093s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestDurationArray.msg
+[15.093s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestHeaderArray.msg
+[15.093s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestHeader.msg
+[15.093s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestHeaderTwo.msg
+[15.093s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestTimeArray.msg
+[15.093s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestUInt8.msg
+[15.093s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestUInt8FixedSizeArray16.msg
+[15.093s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestFloat32Array.msg
+[15.094s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestFloat32BoundedArray.msg
+[15.094s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/msg/TestNestedBoundedArray.msg
+[15.094s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/AddTwoInts.srv
+[15.094s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/AddTwoInts_Request.msg
+[15.094s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/AddTwoInts_Response.msg
+[15.094s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/SendBytes.srv
+[15.094s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/SendBytes_Request.msg
+[15.094s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/SendBytes_Response.msg
+[15.094s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestArrayRequest.srv
+[15.094s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestArrayRequest_Request.msg
+[15.094s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestArrayRequest_Response.msg
+[15.094s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestEmpty.srv
+[15.094s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestEmpty_Request.msg
+[15.095s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestEmpty_Response.msg
+[15.095s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestMultipleRequestFields.srv
+[15.095s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestMultipleRequestFields_Request.msg
+[15.095s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestMultipleRequestFields_Response.msg
+[15.095s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestMultipleResponseFields.srv
+[15.095s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestMultipleResponseFields_Request.msg
+[15.095s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestMultipleResponseFields_Response.msg
+[15.095s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestNestedService.srv
+[15.095s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestNestedService_Request.msg
+[15.095s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestNestedService_Response.msg
+[15.095s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestRequestAndResponse.srv
+[15.095s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestRequestAndResponse_Request.msg
+[15.095s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestRequestAndResponse_Response.msg
+[15.096s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestRequestOnly.srv
+[15.096s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestRequestOnly_Request.msg
+[15.096s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestRequestOnly_Response.msg
+[15.096s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestResponseOnly.srv
+[15.096s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestResponseOnly_Request.msg
+[15.096s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/srv/TestResponseOnly_Response.msg
+[15.096s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/action/TestEmpty.action
+[15.096s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/action/TestFeedbackAndResult.action
+[15.096s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/action/TestGoalAndResult.action
+[15.096s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/action/TestGoalFeedbackAndResult.action
+[15.096s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/action/TestGoalOnly.action
+[15.097s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/action/TestMultipleGoalFields.action
+[15.097s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/action/TestResultOnly.action
+[15.097s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/ament_index/resource_index/package_run_dependencies/rosbridge_test_msgs
+[15.097s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/ament_index/resource_index/parent_prefix_path/rosbridge_test_msgs
+[15.097s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/environment/ament_prefix_path.sh
+[15.097s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/environment/ament_prefix_path.dsv
+[15.097s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/environment/path.sh
+[15.097s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/environment/path.dsv
+[15.097s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/local_setup.bash
+[15.097s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/local_setup.sh
+[15.097s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/local_setup.zsh
+[15.097s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/local_setup.dsv
+[15.098s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.dsv
+[15.098s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/ament_index/resource_index/packages/rosbridge_test_msgs
+[15.098s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/export_rosbridge_test_msgs__rosidl_generator_cExport.cmake
+[15.098s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/export_rosbridge_test_msgs__rosidl_generator_cExport-noconfig.cmake
+[15.098s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/export_rosbridge_test_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[15.098s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/export_rosbridge_test_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.098s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/export_rosbridge_test_msgs__rosidl_generator_cppExport.cmake
+[15.098s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/export_rosbridge_test_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.098s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/export_rosbridge_test_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.098s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgs__rosidl_typesupport_introspection_cExport.cmake
+[15.098s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.099s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgs__rosidl_typesupport_cExport.cmake
+[15.099s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[15.099s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[15.099s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.099s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgs__rosidl_typesupport_cppExport.cmake
+[15.099s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[15.099s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/export_rosbridge_test_msgs__rosidl_generator_pyExport.cmake
+[15.099s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/export_rosbridge_test_msgs__rosidl_generator_pyExport-noconfig.cmake
+[15.099s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosidl_cmake-extras.cmake
+[15.099s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.099s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.100s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[15.100s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[15.100s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.100s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.100s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgsConfig.cmake
+[15.100s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/cmake/rosbridge_test_msgsConfig-version.cmake
+[15.100s] -- Installing: /home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.xml
+[15.102s] Invoked command in '/home/leyla/Desktop/nexus_ws/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/nexus_ws/install/code_py:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Desktop/nexus_ws/build/rosbridge_test_msgs

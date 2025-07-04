@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/code_py/code_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/code_py/code_py.egg-info/dependency_links.txt
+writing entry points to ../../build/code_py/code_py.egg-info/entry_points.txt
+writing requirements to ../../build/code_py/code_py.egg-info/requires.txt
+writing top-level names to ../../build/code_py/code_py.egg-info/top_level.txt
+reading manifest file '../../build/code_py/code_py.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file '../../build/code_py/code_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying code_py/actuator_control.py -> /home/leyla/Desktop/nexus_ws/build/code_py/build/lib/code_py
+running install
+running install_lib
+copying /home/leyla/Desktop/nexus_ws/build/code_py/build/lib/code_py/actuator_control.py -> /home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages/code_py
+byte-compiling /home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages/code_py/actuator_control.py to actuator_control.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages/code_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/code_py/code_py.egg-info to /home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages/code_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing actuator_control script to /home/leyla/Desktop/nexus_ws/install/code_py/lib/code_py
+Installing jetpack_api script to /home/leyla/Desktop/nexus_ws/install/code_py/lib/code_py
+Installing motor_control script to /home/leyla/Desktop/nexus_ws/install/code_py/lib/code_py
+writing list of installed files to '/home/leyla/Desktop/nexus_ws/build/code_py/install.log'

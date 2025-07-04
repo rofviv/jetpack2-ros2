@@ -1,0 +1,4 @@
+float32 pwm_left
+float32 pwm_right
+float32 factor_left
+float32 factor_right

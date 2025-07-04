@@ -1,0 +1,25 @@
+[0.405s] Invoking command in '/home/leyla/Desktop/nexus_ws/src/code_py': LD_LIBRARY_PATH=/home/leyla/Desktop/nexus_ws/install/ucb_interface/lib:/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib:/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib:/home/leyla/Desktop/nexus_ws/install/rosapi_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/leyla/Desktop/nexus_ws/build/code_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/code_py build --build-base /home/leyla/Desktop/nexus_ws/build/code_py/build install --record /home/leyla/Desktop/nexus_ws/build/code_py/install.log --single-version-externally-managed install_data
+[0.542s] running egg_info
+[0.543s] writing ../../build/code_py/code_py.egg-info/PKG-INFO
+[0.543s] writing dependency_links to ../../build/code_py/code_py.egg-info/dependency_links.txt
+[0.543s] writing entry points to ../../build/code_py/code_py.egg-info/entry_points.txt
+[0.543s] writing requirements to ../../build/code_py/code_py.egg-info/requires.txt
+[0.543s] writing top-level names to ../../build/code_py/code_py.egg-info/top_level.txt
+[0.544s] reading manifest file '../../build/code_py/code_py.egg-info/SOURCES.txt'
+[0.544s] reading manifest template 'MANIFEST.in'
+[0.544s] adding license file 'LICENSE'
+[0.545s] writing manifest file '../../build/code_py/code_py.egg-info/SOURCES.txt'
+[0.545s] running build
+[0.545s] running build_py
+[0.545s] running install
+[0.545s] running install_lib
+[0.546s] running install_data
+[0.546s] running install_egg_info
+[0.547s] removing '/home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages/code_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.547s] Copying ../../build/code_py/code_py.egg-info to /home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages/code_py-0.0.0-py3.10.egg-info
+[0.547s] running install_scripts
+[0.559s] Installing actuator_control script to /home/leyla/Desktop/nexus_ws/install/code_py/lib/code_py
+[0.560s] Installing jetpack_api script to /home/leyla/Desktop/nexus_ws/install/code_py/lib/code_py
+[0.560s] Installing motor_control script to /home/leyla/Desktop/nexus_ws/install/code_py/lib/code_py
+[0.560s] writing list of installed files to '/home/leyla/Desktop/nexus_ws/build/code_py/install.log'
+[0.571s] Invoked command in '/home/leyla/Desktop/nexus_ws/src/code_py' returned '0': LD_LIBRARY_PATH=/home/leyla/Desktop/nexus_ws/install/ucb_interface/lib:/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib:/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib:/home/leyla/Desktop/nexus_ws/install/rosapi_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/leyla/Desktop/nexus_ws/build/code_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/code_py build --build-base /home/leyla/Desktop/nexus_ws/build/code_py/build install --record /home/leyla/Desktop/nexus_ws/build/code_py/install.log --single-version-externally-managed install_data

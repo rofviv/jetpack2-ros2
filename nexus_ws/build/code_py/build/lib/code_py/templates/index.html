@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Control de Robot</title>
+  <!-- === Comunicación WebSocket con Flask + SocketIO === -->
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+<body>
+  <h2>Presiona W para rueda izquierda, E para la derecha</h2>
+  <label>Velocidad Izq: <input type="number" min="0" max="255" id="speedA" value="80"></label>
+  <label>Velocidad Der: <input type="number" min="0" max="255" id="speedB" value="80"></label><br>
+
+  <div>
+    <label><input type="checkbox" id="boost1"> Boost 1 (Tecla 1)</label>
+    <input type="number" id="boost1Value" value="5" min="0" max="255">
+  </div>
+  <div>
+    <label><input type="checkbox" id="boost2"> Boost 2 (Tecla 2)</label>
+    <input type="number" id="boost2Value" value="10" min="0" max="255">
+  </div>
+
+  <pre id="console" style="background:#111; color:#0f0; padding:10px; height:200px; overflow:auto;"></pre>
+
+  <!-- === Botones de actuadores (relevadores, servos) === -->
+  <label><button onclick="sendActuator('f', 'on')">Puerta abierta</button></label><br>
+  <label><button onclick="sendActuator('r', 'on')">Puerta cerrada</button></label><br>
+  <label><button onclick="sendActuator('s', 'on')">Puerta detenida</button></label><br>
+  <label><input type="checkbox" onclick="sendActuator('dr', this.checked ? 'on' : 'off')">Guiñador derecho</label><br>
+  <label><input type="checkbox" onclick="sendActuator('iz', this.checked ? 'on' : 'off')">Guiñador izquierdo</label><br>
+  <label><input type="checkbox" onclick="sendActuator('rev1', this.checked ? 'on' : 'off')">Reversa motor 1</label><br>
+  <label><input type="checkbox" onclick="sendActuator('rev2', this.checked ? 'on' : 'off')">Reversa motor 2</label><br>
+  <label><input type="checkbox" onclick="sendActuator('charge', this.checked ? 'on' : 'off')">Carga autónoma</label><br>
+
+
+
+  <!-- === Control de servos (Min/Max) adicionales ------------------------------------------------------------------------------->
+<label>Puerta lateral (Min, Max):
+  <input type="number" min="0" max="180" id="puerta_lateral_min" value="0">
+  <input type="number" min="0" max="180" id="puerta_lateral_max" value="180">
+  <button id="puerta_lateral_min_btn" onclick="sendActuator(0, document.getElementById('puerta_lateral_min').value)">Min</button>
+  <button id="puerta_lateral_max_btn" onclick="sendActuator(0, document.getElementById('puerta_lateral_max').value)">Max</button>
+</label>
+<br>
+<label>Camara (Min, Max):
+  <input type="number" min="0" max="180" id="camara_min" value="0">
+  <input type="number" min="0" max="180" id="camara_max" value="180">
+  <button id="camara_min_btn" onclick="sendActuator(1, document.getElementById('camara_min').value)">Min</button>
+  <button id="camara_max_btn" onclick="sendActuator(1, document.getElementById('camara_max').value)">Max</button>
+</label>
+<br>
+<label>Freno Izquierdo (Min, Max):
+  <input type="number" min="0" max="180" id="freno_izquierdo_min" value="0">
+  <input type="number" min="0" max="180" id="freno_izquierdo_max" value="180">
+  <button id="freno_izquierdo_min_btn" onclick="sendActuator(2, document.getElementById('freno_izquierdo_min').value)">Min</button>
+  <button id="freno_izquierdo_max_btn" onclick="sendActuator(2, document.getElementById('freno_izquierdo_max').value)">Max</button>
+</label>
+<br>
+<label>Freno Derecho (Min, Max):
+  <input type="number" min="0" max="180" id="freno_derecho_min" value="0">
+  <input type="number" min="0" max="180" id="freno_derecho_max" value="180">
+  <button id="freno_derecho_min_btn" onclick="sendActuator(3, document.getElementById('freno_derecho_min').value)">Min</button>
+  <button id="freno_derecho_max_btn" onclick="sendActuator(3, document.getElementById('freno_derecho_max').value)">Max</button>
+</label>
+
+
+
+
+  
+
+  
+  <pre id="console_actuators" style="background:#111; color:#0f0; padding:10px; height:200px; overflow:auto;"></pre>
+
+  <script>
+    // === Conexión con servidor WebSocket Flask (jetpack_api.py) ===
+    const socket = io("http://localhost:5000");
+
+    const keysPressed = new Set();
+
+    // === Envío de comando de movimiento (emitido cada 100ms) ===
+    function actualizarMovimiento() {
+      const acciones = Array.from(keysPressed);
+      let speedA = parseInt(document.getElementById('speedA').value) || 80;
+      let speedB = parseInt(document.getElementById('speedB').value) || 80;
+
+      if (document.getElementById('boost1').checked) {
+        speedA += parseInt(document.getElementById('boost1Value').value) || 0;
+        speedB += parseInt(document.getElementById('boost1Value').value) || 0;
+      }
+      if (document.getElementById('boost2').checked) {
+        speedA += parseInt(document.getElementById('boost2Value').value) || 0;
+        speedB += parseInt(document.getElementById('boost2Value').value) || 0;
+      }
+
+      speedA = Math.min(255, speedA);
+      speedB = Math.min(255, speedB);
+
+      // === Emite evento 'movimiento' al backend ===
+      socket.emit('movimiento', {
+        keys: acciones,
+        speedA: speedA,
+        speedB: speedB
+      });
+    }
+
+    // === Envío de comandos de actuadores al backend ===
+    function sendActuator(key, value) {
+      socket.emit('actuators', { key, value });
+    }
+
+    // === Teclas para movimiento ===
+    document.addEventListener('keydown', (e) => {
+      const key = e.key.toUpperCase();
+      if (['W', 'E'].includes(key)) keysPressed.add(key);
+    });
+
+    document.addEventListener('keyup', (e) => {
+      const key = e.key.toUpperCase();
+      keysPressed.delete(key);
+    });
+
+    // === Visualiza mensajes desde backend ===
+    socket.on('arduino_output', (data) => {
+      const consola = document.getElementById('console');
+      consola.textContent += data.linea + '\n';
+      consola.scrollTop = consola.scrollHeight;
+    });
+
+    socket.on('arduino_output_actuators', (data) => {
+      const consola = document.getElementById('console_actuators');
+      consola.textContent += data.linea + '\n';
+      consola.scrollTop = consola.scrollHeight;
+    });
+
+    // === Reenvío periódico de comandos de movimiento ===
+    setInterval(actualizarMovimiento, 100);
+  </script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "package_name": "ucb_interface",
+  "non_idl_tuples": [
+    "/home/leyla/Desktop/nexus_ws/src/ucb_interface:msg/Motor.msg",
+    "/home/leyla/Desktop/nexus_ws/src/ucb_interface:msg/Actuador.msg"
+  ]
+}

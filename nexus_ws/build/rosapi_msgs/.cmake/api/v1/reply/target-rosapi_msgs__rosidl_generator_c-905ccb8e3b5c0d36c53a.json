@@ -1,0 +1,1249 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "librosapi_msgs__rosidl_generator_c.so"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"add_definitions",
+			"find_package",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/opt/ros/humble/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/humble/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/opt/ros/humble/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 286,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 164,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 132,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 137,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 119,
+				"parent" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"file" : 5,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 11
+			},
+			{
+				"file" : 4,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 25,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 125,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wall"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "RCUTILS_ENABLE_FAULT_INJECTION"
+				},
+				{
+					"define" : "ROSIDL_GENERATOR_C_BUILDING_DLL_rosapi_msgs"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "ROS_PACKAGE_NAME=\"rosapi_msgs\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 15,
+					"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/builtin_interfaces"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rcutils"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_interface"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					9
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129
+			]
+		}
+	],
+	"id" : "rosapi_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/leyla/Desktop/nexus_ws/install/rosapi_msgs"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/ros/humble/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/humble/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/humble/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "rosapi_msgs__rosidl_generator_c",
+	"nameOnDisk" : "librosapi_msgs__rosidl_generator_c.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				130
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/msg/type_def.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/msg/detail/type_def__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/msg/detail/type_def__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/msg/detail/type_def__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/delete_param.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/delete_param__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/delete_param__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/delete_param__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/get_action_servers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_action_servers__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_action_servers__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_action_servers__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/get_param.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_param__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_param__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_param__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/get_param_names.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_param_names__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_param_names__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_param_names__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/get_ros_version.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_ros_version__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_ros_version__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_ros_version__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/get_time.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_time__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_time__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_time__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/has_param.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/has_param__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/has_param__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/has_param__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/interfaces.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/interfaces__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/interfaces__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/interfaces__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/message_details.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/message_details__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/message_details__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/message_details__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/nodes.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/nodes__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/nodes__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/nodes__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/node_details.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/node_details__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/node_details__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/node_details__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/publishers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/publishers__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/publishers__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/publishers__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/service_node.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_node__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_node__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_node__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/service_providers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_providers__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_providers__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_providers__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/service_request_details.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_request_details__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_request_details__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_request_details__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/service_response_details.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_response_details__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_response_details__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_response_details__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/services.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/services__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/services__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/services__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/services_for_type.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/services_for_type__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/services_for_type__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/services_for_type__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/service_type.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_type__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_type__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_type__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/set_param.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/set_param__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/set_param__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/set_param__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/subscribers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/subscribers__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/subscribers__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/subscribers__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/topics.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/topics__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/topics__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/topics__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/topics_and_raw_types.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/topics_and_raw_types__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/topics_and_raw_types__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/topics_and_raw_types__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/topics_for_type.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/topics_for_type__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/topics_for_type__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/topics_for_type__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/topic_type.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/topic_type__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/topic_type__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/topic_type__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/msg/detail/type_def__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/delete_param__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_action_servers__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_param__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_param_names__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_ros_version__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/get_time__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/has_param__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/interfaces__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/message_details__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/nodes__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/node_details__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/publishers__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_node__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_providers__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_request_details__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_response_details__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/services__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/services_for_type__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/service_type__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/set_param__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/subscribers__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/topics__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/topics_and_raw_types__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/topics_for_type__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/srv/detail/topic_type__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/leyla/Desktop/nexus_ws/build/rosapi_msgs/rosidl_generator_c/rosapi_msgs/msg/type_def.h.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

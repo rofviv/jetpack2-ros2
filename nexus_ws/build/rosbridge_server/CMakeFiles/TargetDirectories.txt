@@ -1,0 +1,11 @@
+/home/leyla/Desktop/nexus_ws/build/rosbridge_server/CMakeFiles/uninstall.dir
+/home/leyla/Desktop/nexus_ws/build/rosbridge_server/CMakeFiles/rosbridge_server_uninstall.dir
+/home/leyla/Desktop/nexus_ws/build/rosbridge_server/CMakeFiles/ament_cmake_python_copy_rosbridge_server.dir
+/home/leyla/Desktop/nexus_ws/build/rosbridge_server/CMakeFiles/ament_cmake_python_build_rosbridge_server_egg.dir
+/home/leyla/Desktop/nexus_ws/build/rosbridge_server/CMakeFiles/test.dir
+/home/leyla/Desktop/nexus_ws/build/rosbridge_server/CMakeFiles/edit_cache.dir
+/home/leyla/Desktop/nexus_ws/build/rosbridge_server/CMakeFiles/rebuild_cache.dir
+/home/leyla/Desktop/nexus_ws/build/rosbridge_server/CMakeFiles/list_install_components.dir
+/home/leyla/Desktop/nexus_ws/build/rosbridge_server/CMakeFiles/install.dir
+/home/leyla/Desktop/nexus_ws/build/rosbridge_server/CMakeFiles/install/local.dir
+/home/leyla/Desktop/nexus_ws/build/rosbridge_server/CMakeFiles/install/strip.dir

@@ -1,0 +1,46 @@
+[0.761s] Invoking command in '/home/leyla/Desktop/nexus_ws/src/code_py': LD_LIBRARY_PATH=/home/leyla/Desktop/nexus_ws/install/ucb_interface/lib:/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib:/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib:/home/leyla/Desktop/nexus_ws/install/rosapi_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/leyla/Desktop/nexus_ws/build/code_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/code_py build --build-base /home/leyla/Desktop/nexus_ws/build/code_py/build install --record /home/leyla/Desktop/nexus_ws/build/code_py/install.log --single-version-externally-managed install_data
+[1.114s] running egg_info
+[1.115s] creating ../../build/code_py/code_py.egg-info
+[1.116s] writing ../../build/code_py/code_py.egg-info/PKG-INFO
+[1.117s] writing dependency_links to ../../build/code_py/code_py.egg-info/dependency_links.txt
+[1.117s] writing entry points to ../../build/code_py/code_py.egg-info/entry_points.txt
+[1.118s] writing requirements to ../../build/code_py/code_py.egg-info/requires.txt
+[1.118s] writing top-level names to ../../build/code_py/code_py.egg-info/top_level.txt
+[1.120s] writing manifest file '../../build/code_py/code_py.egg-info/SOURCES.txt'
+[1.122s] reading manifest file '../../build/code_py/code_py.egg-info/SOURCES.txt'
+[1.122s] adding license file 'LICENSE'
+[1.123s] writing manifest file '../../build/code_py/code_py.egg-info/SOURCES.txt'
+[1.124s] running build
+[1.124s] running build_py
+[1.124s] creating /home/leyla/Desktop/nexus_ws/build/code_py/build
+[1.124s] creating /home/leyla/Desktop/nexus_ws/build/code_py/build/lib
+[1.125s] creating /home/leyla/Desktop/nexus_ws/build/code_py/build/lib/code_py
+[1.125s] copying code_py/__init__.py -> /home/leyla/Desktop/nexus_ws/build/code_py/build/lib/code_py
+[1.125s] copying code_py/actuator_control.py -> /home/leyla/Desktop/nexus_ws/build/code_py/build/lib/code_py
+[1.125s] copying code_py/motor_control.py -> /home/leyla/Desktop/nexus_ws/build/code_py/build/lib/code_py
+[1.126s] copying code_py/jetpack_api.py -> /home/leyla/Desktop/nexus_ws/build/code_py/build/lib/code_py
+[1.126s] running install
+[1.127s] running install_lib
+[1.128s] creating /home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages/code_py
+[1.129s] copying /home/leyla/Desktop/nexus_ws/build/code_py/build/lib/code_py/__init__.py -> /home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages/code_py
+[1.129s] copying /home/leyla/Desktop/nexus_ws/build/code_py/build/lib/code_py/actuator_control.py -> /home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages/code_py
+[1.129s] copying /home/leyla/Desktop/nexus_ws/build/code_py/build/lib/code_py/motor_control.py -> /home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages/code_py
+[1.130s] copying /home/leyla/Desktop/nexus_ws/build/code_py/build/lib/code_py/jetpack_api.py -> /home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages/code_py
+[1.131s] byte-compiling /home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages/code_py/__init__.py to __init__.cpython-310.pyc
+[1.131s] byte-compiling /home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages/code_py/actuator_control.py to actuator_control.cpython-310.pyc
+[1.133s] byte-compiling /home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages/code_py/motor_control.py to motor_control.cpython-310.pyc
+[1.135s] byte-compiling /home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages/code_py/jetpack_api.py to jetpack_api.cpython-310.pyc
+[1.135s] running install_data
+[1.135s] creating /home/leyla/Desktop/nexus_ws/install/code_py/share/ament_index
+[1.135s] creating /home/leyla/Desktop/nexus_ws/install/code_py/share/ament_index/resource_index
+[1.136s] creating /home/leyla/Desktop/nexus_ws/install/code_py/share/ament_index/resource_index/packages
+[1.136s] copying resource/code_py -> /home/leyla/Desktop/nexus_ws/install/code_py/share/ament_index/resource_index/packages
+[1.136s] copying package.xml -> /home/leyla/Desktop/nexus_ws/install/code_py/share/code_py
+[1.139s] running install_egg_info
+[1.139s] Copying ../../build/code_py/code_py.egg-info to /home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages/code_py-0.0.0-py3.10.egg-info
+[1.140s] running install_scripts
+[1.171s] Installing actuator_control script to /home/leyla/Desktop/nexus_ws/install/code_py/lib/code_py
+[1.171s] Installing jetpack_api script to /home/leyla/Desktop/nexus_ws/install/code_py/lib/code_py
+[1.171s] Installing motor_control script to /home/leyla/Desktop/nexus_ws/install/code_py/lib/code_py
+[1.171s] writing list of installed files to '/home/leyla/Desktop/nexus_ws/build/code_py/install.log'
+[1.230s] Invoked command in '/home/leyla/Desktop/nexus_ws/src/code_py' returned '0': LD_LIBRARY_PATH=/home/leyla/Desktop/nexus_ws/install/ucb_interface/lib:/home/leyla/Desktop/nexus_ws/install/rosbridge_test_msgs/lib:/home/leyla/Desktop/nexus_ws/install/rosbridge_msgs/lib:/home/leyla/Desktop/nexus_ws/install/rosapi_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/leyla/Desktop/nexus_ws/build/code_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/nexus_ws/install/code_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/code_py build --build-base /home/leyla/Desktop/nexus_ws/build/code_py/build install --record /home/leyla/Desktop/nexus_ws/build/code_py/install.log --single-version-externally-managed install_data

@@ -1,0 +1,41 @@
+Built target ament_cmake_python_copy_rosapi
+running egg_info
+writing rosapi.egg-info/PKG-INFO
+writing dependency_links to rosapi.egg-info/dependency_links.txt
+writing top-level names to rosapi.egg-info/top_level.txt
+reading manifest file 'rosapi.egg-info/SOURCES.txt'
+writing manifest file 'rosapi.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_rosapi_egg
+-- Install configuration: ""
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/share/rosapi/environment/pythonpath.sh
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/share/rosapi/environment/pythonpath.dsv
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/local/lib/python3.10/dist-packages/rosapi-2.0.1-py3.10.egg-info
+-- Installing: /home/leyla/Desktop/nexus_ws/install/rosapi/local/lib/python3.10/dist-packages/rosapi-2.0.1-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/leyla/Desktop/nexus_ws/install/rosapi/local/lib/python3.10/dist-packages/rosapi-2.0.1-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/leyla/Desktop/nexus_ws/install/rosapi/local/lib/python3.10/dist-packages/rosapi-2.0.1-py3.10.egg-info/PKG-INFO
+-- Installing: /home/leyla/Desktop/nexus_ws/install/rosapi/local/lib/python3.10/dist-packages/rosapi-2.0.1-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/local/lib/python3.10/dist-packages/rosapi
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/local/lib/python3.10/dist-packages/rosapi/__init__.py
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/local/lib/python3.10/dist-packages/rosapi/stringify_field_types.py
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/local/lib/python3.10/dist-packages/rosapi/params.py
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/local/lib/python3.10/dist-packages/rosapi/glob_helper.py
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/local/lib/python3.10/dist-packages/rosapi/objectutils.py
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/local/lib/python3.10/dist-packages/rosapi/proxy.py
+Listing '/home/leyla/Desktop/nexus_ws/install/rosapi/local/lib/python3.10/dist-packages/rosapi'...
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/share/ament_index/resource_index/package_run_dependencies/rosapi
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/share/ament_index/resource_index/parent_prefix_path/rosapi
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/share/rosapi/environment/ament_prefix_path.sh
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/share/rosapi/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/share/rosapi/environment/path.sh
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/share/rosapi/environment/path.dsv
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/share/rosapi/local_setup.bash
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/share/rosapi/local_setup.sh
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/share/rosapi/local_setup.zsh
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/share/rosapi/local_setup.dsv
+-- Installing: /home/leyla/Desktop/nexus_ws/install/rosapi/share/rosapi/package.dsv
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/share/ament_index/resource_index/packages/rosapi
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/share/rosapi/cmake/rosapiConfig.cmake
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/share/rosapi/cmake/rosapiConfig-version.cmake
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/share/rosapi/package.xml
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/lib/rosapi/rosapi_node
+-- Up-to-date: /home/leyla/Desktop/nexus_ws/install/rosapi/share/rosapi/mapping_rules.yaml

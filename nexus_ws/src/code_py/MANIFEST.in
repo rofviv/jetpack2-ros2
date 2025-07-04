@@ -1,0 +1,1 @@
+recursive-include code_py/templates *.html

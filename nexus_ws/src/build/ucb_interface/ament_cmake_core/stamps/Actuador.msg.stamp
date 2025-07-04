@@ -1,0 +1,16 @@
+bool puerta_abierta
+bool puerta_cerrada
+bool puerta_detenida
+
+bool guiñador_izquierdo
+bool guiñador_derecho
+
+bool reversa_motor_1
+bool reversa_motor_2
+
+bool carga_autonoma_activada
+
+int32 puerta_lateral
+int32 camara
+int32 freno_izquierdo
+int32 freno_derecho

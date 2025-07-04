@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rosbridge_test_msgs__py",
+		"source" : "/home/leyla/Desktop/nexus_ws/build/rosbridge_test_msgs/rosbridge_test_msgs__py"
+	}
+}

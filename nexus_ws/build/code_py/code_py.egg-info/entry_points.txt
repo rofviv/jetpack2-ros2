@@ -1,0 +1,5 @@
+[console_scripts]
+actuator_control = code_py.actuator_control:main
+jetpack_api = code_py.jetpack_api:main
+motor_control = code_py.motor_control:main
+

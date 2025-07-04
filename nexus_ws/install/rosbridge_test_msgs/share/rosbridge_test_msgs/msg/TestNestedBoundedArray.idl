@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rosbridge_test_msgs/msg/TestNestedBoundedArray.msg
+// generated code does not contain a copyright notice
+
+#include "rosbridge_test_msgs/msg/TestFloat32BoundedArray.idl"
+
+module rosbridge_test_msgs {
+  module msg {
+    struct TestNestedBoundedArray {
+      rosbridge_test_msgs::msg::TestFloat32BoundedArray data;
+    };
+  };
+};

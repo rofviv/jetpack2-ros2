@@ -1,0 +1,11 @@
+/home/leyla/Desktop/nexus_ws/build/rosapi/CMakeFiles/uninstall.dir
+/home/leyla/Desktop/nexus_ws/build/rosapi/CMakeFiles/rosapi_uninstall.dir
+/home/leyla/Desktop/nexus_ws/build/rosapi/CMakeFiles/ament_cmake_python_copy_rosapi.dir
+/home/leyla/Desktop/nexus_ws/build/rosapi/CMakeFiles/ament_cmake_python_build_rosapi_egg.dir
+/home/leyla/Desktop/nexus_ws/build/rosapi/CMakeFiles/test.dir
+/home/leyla/Desktop/nexus_ws/build/rosapi/CMakeFiles/edit_cache.dir
+/home/leyla/Desktop/nexus_ws/build/rosapi/CMakeFiles/rebuild_cache.dir
+/home/leyla/Desktop/nexus_ws/build/rosapi/CMakeFiles/list_install_components.dir
+/home/leyla/Desktop/nexus_ws/build/rosapi/CMakeFiles/install.dir
+/home/leyla/Desktop/nexus_ws/build/rosapi/CMakeFiles/install/local.dir
+/home/leyla/Desktop/nexus_ws/build/rosapi/CMakeFiles/install/strip.dir

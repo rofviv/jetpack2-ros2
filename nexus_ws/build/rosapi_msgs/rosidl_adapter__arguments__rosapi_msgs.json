@@ -1,0 +1,31 @@
+{
+  "package_name": "rosapi_msgs",
+  "non_idl_tuples": [
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:msg/TypeDef.msg",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/DeleteParam.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/GetActionServers.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/GetParam.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/GetParamNames.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/GetROSVersion.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/GetTime.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/HasParam.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/Interfaces.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/MessageDetails.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/Nodes.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/NodeDetails.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/Publishers.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceNode.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceProviders.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceRequestDetails.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceResponseDetails.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/Services.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/ServicesForType.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceType.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/SetParam.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/Subscribers.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/Topics.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/TopicsAndRawTypes.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/TopicsForType.srv",
+    "/home/leyla/Desktop/nexus_ws/src/rosbridge_suite/rosapi_msgs:srv/TopicType.srv"
+  ]
+}

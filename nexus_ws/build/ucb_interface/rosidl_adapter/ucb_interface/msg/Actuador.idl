@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ucb_interface/msg/Actuador.msg
+// generated code does not contain a copyright notice
+
+
+module ucb_interface {
+  module msg {
+    struct Actuador {
+      string command;
+    };
+  };
+};
