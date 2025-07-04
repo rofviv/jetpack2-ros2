@@ -8,9 +8,9 @@ cd nexus_ws
 
 ---
 
-## 🖥 TERMINAL 1 – rosbridge_server
+##  TERMINAL 1 – rosbridge_server
 
-###  First-time setup
+###  First-time use : rm -rf build/ install/ log/
 
 ```bash
 rm -rf build/ install/ log/
@@ -28,7 +28,7 @@ ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 
 ##  TERMINAL 2 
 
-###  First-time setup
+###   First-time use : rm -rf build/ install/ log/
 
 ```bash
 rm -rf build/ install/ log/
